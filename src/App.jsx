@@ -6,11 +6,14 @@ import ResumeDisplay from './components/ResumeDisplay';
 function App() {
   const [personalData, setPersonalData] = useState({});
   return (
-    <>
-      <h1>Hello</h1>
-      <PersonalForm onSave={setPersonalData} />
-      <ResumeDisplay personalData={personalData}/>
-    </>
+    <div className="body">
+      <div className="left-side">
+        <PersonalForm onSave={setPersonalData} />
+      </div>
+      <div className="right-side">
+        <ResumeDisplay personalData={personalData} />
+      </div>
+    </div>
   );
 }
 

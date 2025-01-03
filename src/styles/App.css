@@ -1,0 +1,51 @@
+:root{
+  --light-gray: #fff;
+  --medium-gray: #f3f4f6;
+  --dark-blue: rgba(14, 55, 78);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background-color: var(--medium-gray);
+  height: 100vh;
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  /* overflow: hidden; */
+}
+
+.left-side{
+  flex: 2;
+}
+
+.right-side{
+  flex: 3;
+}
+
+.personal-form > form{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.resume-display > .header{
+  color: white;
+  background-color: var(--dark-blue);
+  text-align: center;
+}
+
+.resume-display .name{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.resume-display .contact-info{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
