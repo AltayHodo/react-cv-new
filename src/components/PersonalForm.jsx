@@ -18,6 +18,7 @@ export default function PersonalForm({ onSave }) {
   return (
     <div className="personal-form">
       <form action="">
+        <div className="title">Personal Details</div>
         <label htmlFor="full-name">Full name</label>
         <input
           type="text"

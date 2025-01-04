@@ -1,4 +1,4 @@
-export default function ResumeDisplay({personalData}) {
+export default function ResumeDisplay({ personalData }) {
 
   return (
     <div className="resume-display">

@@ -27,25 +27,28 @@
   flex: 3;
 }
 
-.personal-form > form{
+.personal-form > form,
+.education-form > form{
   display: flex;
   flex-direction: column;
   max-width: 400px;
+  margin-bottom: 20px;
 }
 
 .resume-display > .header{
   color: white;
   background-color: var(--dark-blue);
   text-align: center;
+  padding: 20px 30px;
 }
 
 .resume-display .name{
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 .resume-display .contact-info{
-  font-size: 20px;
+  font-size: 17px;
   display: flex;
   justify-content: space-around;
 }
