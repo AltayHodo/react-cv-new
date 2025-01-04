@@ -15,7 +15,7 @@ function App() {
         <EducationForm onSave={setEducationData} />
       </div>
       <div className="right-side">
-        <ResumeDisplay personalData={personalData} />
+        <ResumeDisplay personalData={personalData} educationData={educationData} />
       </div>
     </div>
   );

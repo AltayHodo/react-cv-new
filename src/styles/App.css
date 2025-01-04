@@ -1,16 +1,16 @@
-:root{
+:root {
   --light-gray: #fff;
   --medium-gray: #f3f4f6;
   --dark-blue: rgba(14, 55, 78);
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.body{
+.body {
   background-color: var(--medium-gray);
   height: 100vh;
   display: flex;
@@ -19,36 +19,65 @@
   /* overflow: hidden; */
 }
 
-.left-side{
+.left-side {
   flex: 2;
 }
 
-.right-side{
+.right-side {
   flex: 3;
 }
 
 .personal-form > form,
-.education-form > form{
+.education-form > form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
   margin-bottom: 20px;
 }
 
-.resume-display > .header{
+.resume-display > .header {
   color: white;
   background-color: var(--dark-blue);
   text-align: center;
   padding: 20px 30px;
 }
 
-.resume-display .name{
+.resume-display .name {
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-.resume-display .contact-info{
+.resume-display .contact-info {
   font-size: 17px;
   display: flex;
   justify-content: space-around;
+}
+
+.resume-body {
+  padding: 20px;
+  background-color: white;
+}
+
+.education-title {
+  background-color: var(--medium-gray);
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 23px;
+  padding: 10px;
+  text-align: center;
+}
+
+.education-entry {
+  display: flex;
+  gap: 20px;
+}
+
+.education-entry .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-entry .right {
+  display: flex;
+  flex-direction: column;
 }

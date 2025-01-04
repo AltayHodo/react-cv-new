@@ -1,12 +1,6 @@
 import { useState } from 'react';
 
 export default function EducationForm({ onSave }) {
-  // const [school, setSchool] = useState('');
-  // const [degree, setDegree] = useState('');
-  // const [startDate, setStartDate] = useState('');
-  // const [endDate, setEndDate] = useState('');
-  // const [location, setLocation] = useState('');
-
   const [education, setEducation] = useState({
     school: '',
     degree: '',
